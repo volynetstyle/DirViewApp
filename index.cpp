@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
     QGuiApplication::setApplicationName("File System Explorer");
 
     QQmlApplicationEngine engine;
-    engine.loadFromModule("DivView", "Main");
+    engine.loadFromModule("DivView", "App");
     if (engine.rootObjects().isEmpty())
         return -1;
 
