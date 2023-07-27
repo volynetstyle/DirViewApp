@@ -4,14 +4,13 @@ To create a simple file manager using the Qt framework, we can start by designin
 For this example, we'll use QML for the user interface and C++ for the backend logic. The following files are part of the project:
 
 Project Structure:
-- icons/
-- src/
-  - components/
-  - constants/
-  - events/
-  - modules/
-  - pages/
-- .gitignore.txt
+- icons
+- src
+  - components
+  - constants
+  - events
+  - modules
+  - pages
 - App.qml
 - CMakeLists.txt
 - CMakeLists.txt.user
