@@ -3,7 +3,6 @@ import QtQuick.Layouts
 import QtQuick.Controls.Basic
 import DivView
 
-// This is the file system view which gets populated by the C++ model.
 Rectangle {
     id: root
 

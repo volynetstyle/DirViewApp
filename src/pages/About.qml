@@ -13,7 +13,7 @@ ApplicationWindow {
         id: menuBar
         implicitHeight: 20
         rootWindow: root
-        infoText: "About Qt"
+        infoText: "About"
     }
 
     Image {
@@ -42,12 +42,7 @@ ApplicationWindow {
         horizontalAlignment: Text.AlignHCenter
         readOnly: true
         selectionColor: Colors.selection
-        text: qsTr("Qt Group (Nasdaq Helsinki: QTCOM) is a global software company with a strong \
-presence in more than 70 industries and is the leading independent technology behind 1+ billion \
-devices and applications. Qt is used by major global companies and developers worldwide, and the \
-technology enables its customers to deliver exceptional user experiences and advance their digital \
-transformation initiatives. Qt achieves this through its cross-platform software framework for the \
-development of apps and devices, under both commercial and open-source licenses.")
+        text: qsTr("")
         background: Rectangle {
             color: "transparent"
         }
