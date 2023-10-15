@@ -1,0 +1,24 @@
+<RCC>
+  <qresource prefix="/DivView/">
+    <file alias="client/App.qml">D:/Projects/Qt/DivView/client/App.qml</file>
+    <file alias="client/src/components/Icon.qml">D:/Projects/Qt/DivView/client/src/components/Icon.qml</file>
+    <file alias="client/src/components/ResizeButton.qml">D:/Projects/Qt/DivView/client/src/components/ResizeButton.qml</file>
+    <file alias="client/src/components/Sidebar.qml">D:/Projects/Qt/DivView/client/src/components/Sidebar.qml</file>
+    <file alias="client/src/constants/Colors.qml">D:/Projects/Qt/DivView/client/src/constants/Colors.qml</file>
+    <file alias="client/src/events/WindowDragHandler.qml">D:/Projects/Qt/DivView/client/src/events/WindowDragHandler.qml</file>
+    <file alias="client/src/modules/FileSystemView.qml">D:/Projects/Qt/DivView/client/src/modules/FileSystemView.qml</file>
+    <file alias="client/src/modules/MyMenuBar.qml">D:/Projects/Qt/DivView/client/src/modules/MyMenuBar.qml</file>
+    <file alias="client/src/pages/About.qml">D:/Projects/Qt/DivView/client/src/pages/About.qml</file>
+    <file alias="client/src/pages/MyMenu.qml">D:/Projects/Qt/DivView/client/src/pages/MyMenu.qml</file>
+    <file alias="client/icons/folder_closed.svg">D:/Projects/Qt/DivView/client/icons/folder_closed.svg</file>
+    <file alias="client/icons/folder_open.svg">D:/Projects/Qt/DivView/client/icons/folder_open.svg</file>
+    <file alias="client/icons/generic_file.svg">D:/Projects/Qt/DivView/client/icons/generic_file.svg</file>
+    <file alias="client/icons/globe.svg">D:/Projects/Qt/DivView/client/icons/globe.svg</file>
+    <file alias="client/icons/info_sign.svg">D:/Projects/Qt/DivView/client/icons/info_sign.svg</file>
+    <file alias="client/icons/light_bulb.svg">D:/Projects/Qt/DivView/client/icons/light_bulb.svg</file>
+    <file alias="client/icons/read.svg">D:/Projects/Qt/DivView/client/icons/read.svg</file>
+    <file alias="client/icons/resize.svg">D:/Projects/Qt/DivView/client/icons/resize.svg</file>
+    <file alias="client/icons/qt_logo.svg">D:/Projects/Qt/DivView/client/icons/qt_logo.svg</file>
+  </qresource>
+</RCC>
+

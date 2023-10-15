@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-3b57755ef94b3b3f8a9e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DivView",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Release-8152a9471c69c4533494.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Release-ccb7222f3848f25571ff.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Release-b6836fde08b61e2ac4b4.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Release-a395d79241b7a83134d3.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appDivView::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appDivView-Release-7b48d7c5c40de936bf94.json",
+					"name" : "appDivView",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appDivView_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appDivView_autogen-Release-cce1e83ffc6ba3b60e4c.json",
+					"name" : "appDivView_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appDivView_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appDivView_autogen_timestamp_deps-Release-70411ea68110fb7452ca.json",
+					"name" : "appDivView_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appDivView_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appDivView_qmlimportscan-Release-9e7af47841e5b26c328b.json",
+					"name" : "appDivView_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appDivView_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appDivView_qmllint-Release-924213826b65380f53c7.json",
+					"name" : "appDivView_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appDivView_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appDivView_qmllint_json-Release-8d94ffa2ee09695eaa7d.json",
+					"name" : "appDivView_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appDivView_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appDivView_qmllint_module-Release-44141e4ae320461486db.json",
+					"name" : "appDivView_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appDivView_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appDivView_qmltyperegistration-Release-017f28bb660d434a0e04.json",
+					"name" : "appDivView_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appDivView_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appDivView_tooling-Release-1fb4b2305cf0bad7ffce.json",
+					"name" : "appDivView_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Projects/Qt/DivView/builds/build-DivView-Desktop_Qt_6_5_2_MinGW_64_bit-Release",
+		"source" : "D:/Projects/Qt/DivView"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

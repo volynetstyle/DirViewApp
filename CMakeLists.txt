@@ -8,43 +8,45 @@ find_package(Qt6 6.4 REQUIRED COMPONENTS Quick)
 
 qt_standard_project_setup()
 
-qt_add_executable(appDivView
-    index.cpp
+qt_add_executable(appDivView "server/index.cpp"
 )
 
-set_source_files_properties(src/constants/Colors.qml
+set_source_files_properties(client/src/constants/Colors.qml
     PROPERTIES
         QT_QML_SINGLETON_TYPE TRUE
 )
 
-qt_add_qml_module(appDivView
+file(GLOB_RECURSE QML_FILES RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}" "client/src/**/*.qml")
+file(GLOB_RECURSE CPP_FILES RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}" "server/**/*.cpp")
+file(GLOB_RECURSE H_FILES RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}" "server/**/*.h")
+
+add_executable(your_executable)
+target_sources(your_executable PRIVATE ${QML_FILES_LIST} ${CPP_FILES_LIST} ${H_FILES_LIST})
+
+qt6_add_qml_module(appDivView
     URI DivView
     VERSION 1.0
     QML_FILES
-        "App.qml"
-        "src/pages/About.qml"
-        "src/constants/Colors.qml"
-        "src/modules/FileSystemView.qml"
-        "src/components/Icon.qml"
-        "src/pages/MyMenu.qml"
-        "src/modules/MyMenuBar.qml"
-        "src/components/Sidebar.qml"
-        "src/components/ResizeButton.qml"
-        "src/events/WindowDragHandler.qml"
+        "client/App.qml"
+        ${QML_FILES}
+
     RESOURCES
-        "icons/folder_closed.svg"
-        "icons/folder_open.svg"
-        "icons/generic_file.svg"
-        "icons/globe.svg"
-        "icons/info_sign.svg"
-        "icons/light_bulb.svg"
-        "icons/read.svg"
-        "icons/resize.svg"
-        "icons/qt_logo.svg"
-     SOURCES
-        filesystemmodel.cpp
-        filesystemmodel.h
+            "client/icons/folder_closed.svg"
+            "client/icons/folder_open.svg"
+            "client/icons/generic_file.svg"
+            "client/icons/globe.svg"
+            "client/icons/info_sign.svg"
+            "client/icons/light_bulb.svg"
+            "client/icons/read.svg"
+            "client/icons/resize.svg"
+            "client/icons/qt_logo.svg"
+
+    SOURCES
+        ${CPP_FILES}
+        ${H_FILES}
 )
+
+target_include_directories(appDivView PRIVATE server/plugins/FileSystem)
 
 set_target_properties(appDivView PROPERTIES
     MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com
@@ -56,9 +58,9 @@ set_target_properties(appDivView PROPERTIES
 
 target_link_libraries(appDivView
     PRIVATE
-        Qt6::Core
-        Qt6::Gui
-        Qt6::Quick
+    Qt6::Core
+    Qt6::Gui
+    Qt6::Quick
 )
 
 install(TARGETS appDivView

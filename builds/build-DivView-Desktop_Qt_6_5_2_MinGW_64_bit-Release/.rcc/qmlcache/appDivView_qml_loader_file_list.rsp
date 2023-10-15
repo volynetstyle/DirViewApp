@@ -1,0 +1,10 @@
+/DivView/client/App.qml
+/DivView/client/src/components/Icon.qml
+/DivView/client/src/components/ResizeButton.qml
+/DivView/client/src/components/Sidebar.qml
+/DivView/client/src/constants/Colors.qml
+/DivView/client/src/events/WindowDragHandler.qml
+/DivView/client/src/modules/FileSystemView.qml
+/DivView/client/src/modules/MyMenuBar.qml
+/DivView/client/src/pages/About.qml
+/DivView/client/src/pages/MyMenu.qml

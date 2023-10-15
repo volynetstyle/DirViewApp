@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-67a7ddcbf23d188f95ef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DivView",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Release-4df09510b4268f65a078.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Release-1805ceb5f6dcb4fc727c.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Release-49ac71ce4b796890a973.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Release-514c11fa7855b36f9834.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appDivView::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appDivView-Release-ae0d82b0b07675d3d31d.json",
+					"name" : "appDivView",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appDivView_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appDivView_autogen-Release-1fdce07fbb958036ddf5.json",
+					"name" : "appDivView_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appDivView_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appDivView_autogen_timestamp_deps-Release-70411ea68110fb7452ca.json",
+					"name" : "appDivView_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appDivView_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appDivView_qmlimportscan-Release-9e7af47841e5b26c328b.json",
+					"name" : "appDivView_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appDivView_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appDivView_qmllint-Release-5e265f662c404bccdfe7.json",
+					"name" : "appDivView_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appDivView_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appDivView_qmllint_json-Release-f5e618c0017c12d57105.json",
+					"name" : "appDivView_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appDivView_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appDivView_qmllint_module-Release-afd45f6da01a7ae6836a.json",
+					"name" : "appDivView_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appDivView_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appDivView_qmltyperegistration-Release-65d437b298e2653d4d84.json",
+					"name" : "appDivView_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appDivView_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appDivView_tooling-Release-6480545c998ad95b137c.json",
+					"name" : "appDivView_tooling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "your_executable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-your_executable-Release-3267c8b139357689426f.json",
+					"name" : "your_executable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "your_executable_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-your_executable_autogen-Release-9ba90f1c8e8d771c09d4.json",
+					"name" : "your_executable_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "your_executable_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-your_executable_autogen_timestamp_deps-Release-233cafd0ad3a1f8c599e.json",
+					"name" : "your_executable_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Projects/Qt/DivView/builds/build-DivView-Desktop_Qt_6_5_2_MinGW_64_bit-Release",
+		"source" : "D:/Projects/Qt/DivView"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

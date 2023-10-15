@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/DivView">
+    <file alias="qmldir">D:/Projects/Qt/DivView/builds/build-DivView-Desktop_Qt_6_5_2_MinGW_64_bit-Release/DivView/qmldir</file>
+  </qresource>
+</RCC>
+

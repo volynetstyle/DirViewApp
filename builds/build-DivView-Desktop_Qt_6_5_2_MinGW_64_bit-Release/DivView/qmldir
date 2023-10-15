@@ -1,0 +1,14 @@
+module DivView
+typeinfo appDivView.qmltypes
+prefer :/DivView/
+App 1.0 client/App.qml
+Icon 1.0 client/src/components/Icon.qml
+ResizeButton 1.0 client/src/components/ResizeButton.qml
+Sidebar 1.0 client/src/components/Sidebar.qml
+singleton Colors 1.0 client/src/constants/Colors.qml
+WindowDragHandler 1.0 client/src/events/WindowDragHandler.qml
+FileSystemView 1.0 client/src/modules/FileSystemView.qml
+MyMenuBar 1.0 client/src/modules/MyMenuBar.qml
+About 1.0 client/src/pages/About.qml
+MyMenu 1.0 client/src/pages/MyMenu.qml
+

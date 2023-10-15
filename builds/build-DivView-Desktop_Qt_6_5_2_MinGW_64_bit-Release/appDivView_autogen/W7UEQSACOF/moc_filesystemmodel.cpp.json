@@ -1,0 +1,40 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Singleton",
+                    "value": "true"
+                }
+            ],
+            "className": "FileSystemModel",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "filePath",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "readFile",
+                    "returnType": "QString"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "FileSystemModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QFileSystemModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "filesystemmodel.h",
+    "outputRevision": 68
+}

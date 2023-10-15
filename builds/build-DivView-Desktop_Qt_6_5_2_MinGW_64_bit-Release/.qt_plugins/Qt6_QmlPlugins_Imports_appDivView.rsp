@@ -1,0 +1,14 @@
+-rootPath
+D:/Projects/Qt/DivView
+-cmake-output
+-output-file
+D:/Projects/Qt/DivView/builds/build-DivView-Desktop_Qt_6_5_2_MinGW_64_bit-Release/.qt_plugins/Qt6_QmlPlugins_Imports_appDivView.cmake
+-importPath
+D:/Projects/Qt/DivView/builds/build-DivView-Desktop_Qt_6_5_2_MinGW_64_bit-Release/DivView
+-importPath
+D:/Projects/Qt/DivView/builds/build-DivView-Desktop_Qt_6_5_2_MinGW_64_bit-Release
+-importPath
+D:/Utilites/Qt/6.5.2/mingw_64/./qml
+-qrcFiles
+D:/Projects/Qt/DivView/builds/build-DivView-Desktop_Qt_6_5_2_MinGW_64_bit-Release/.rcc/qmake_DivView.qrc
+D:/Projects/Qt/DivView/builds/build-DivView-Desktop_Qt_6_5_2_MinGW_64_bit-Release/.rcc/appDivView_raw_qml_0.qrc
